@@ -19,7 +19,7 @@ cd Backup_Automation
 Step 3: Ensure the scripts have the necessary permissions to run.
 chmod +x backup_creator.sh schedule_backup.sh cleanup_backups.sh
 
-Step 4: To schedule automatic backups at 2 AM every day:
+Step 4: To schedule automatic backups at 2 AM every day.
 crontab -e
 0 2 * * * /path/to/backup_creator.sh (Add the following line at the end of the file)
 
